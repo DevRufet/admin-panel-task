@@ -318,9 +318,9 @@ const TableComponent: React.FC = () => {
           columns={columns}
           dataSource={tableData}
           pagination={{
-            pageSize: 4,
+            pageSize: 3,
             showSizeChanger: true,
-            pageSizeOptions: ["4", "8", "16", "32"],
+            pageSizeOptions: ["3", "6", "18", "36"],
             showQuickJumper: true,
             showTotal: (total, range) =>
               `${range[0]}-${range[1]} of ${total} items`,
